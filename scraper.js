@@ -34,7 +34,10 @@ const clickArrow = async (page, index) => {
     await page.waitForTimeout(1000)
 }
 
-const clickArrowTwice = async (page, index) => await clickArrow(page, index)
+const clickArrowTwice = async (page, index) => {
+    await clickArrow(page, index)
+    await clickArrow(page, index)
+}
 
 const takeScreenshot = async (page, keyword) => {
     if (!fs.existsSync(SCREENSHOTS_DIR)) {
