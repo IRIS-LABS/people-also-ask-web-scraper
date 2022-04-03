@@ -24,3 +24,7 @@ The File Will Be Updated With People Also Ask Questions At Runtime.
 You Can Stop The Tool Before Completing By Pressing CTRL + C. 
 The Scraped Questions Upto That Point Will Be Saved In The File.
 
+## Special Points
+
+If There's No People Also Ask Section For Some Search Keyword, A Screenshot Of The Search Result Page Will Be Taken And Stored In The Screenshots Folder With Filename <keyword>.png
+
