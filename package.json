@@ -1,15 +1,16 @@
 {
-  "name": "learn-web-scraping",
+  "name": "people-also-ask-web-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Web Scraper To Scrape People Also Ask Questions For A Search Keyword In Google",
   "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Sanuja Tharinda",
-  "license": "ISC",
-  "dependencies": {
-    "puppeteer": "^13.5.1"
-  }
+  "license": "ISC"
 }
